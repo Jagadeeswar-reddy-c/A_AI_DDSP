@@ -1,0 +1,10 @@
+pandas
+geopy
+requests
+folium
+numpy
+mesa
+flask
+scikit-learn
+scipy
+matplotlib

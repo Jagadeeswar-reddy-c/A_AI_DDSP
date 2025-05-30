@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 def main():
-    base_path = "/Users/jagadeeswarreddychennuru/Downloads/A_AI_DDSP/data/processed"  # Adjust to your actual root folder
+    base_path = r"C:\Users\user\Desktop\A_AI_DDSP\data\processed"  # Adjust to your actual root folder
 
     # Paths to required CSV files
     hospital_data_path = os.path.join(base_path, "Krankenha╠êuser in Deutschland (Krankenhausverzeichnis)", "KHV_2022.csv")
@@ -12,7 +12,7 @@ def main():
     forecast_data_path = os.path.join(base_path, "Bevo╠êlkerungsdaten (Destatis)", "Bevölkerung forecasts_VAR 02.csv")
     age_groups_df = os.path.join(base_path, "years.csv")
     distance_matrix_path = os.path.join(base_path, "distance_matrix.csv")  # You must create or generate this
-    coord_data_path = r"/Users/jagadeeswarreddychennuru/Downloads/A_AI_DDSP/municipalities_with_coordinates.csv"
+    coord_data_path = r"C:\Users\user\Desktop\A_AI_DDSP/municipalities_with_coordinates.csv"
 
 
     width = 50

@@ -32,21 +32,24 @@ def geocode_german_municipalities(file_path):
     Reads the CSV file, extracts municipality names, and geocodes them
     to get latitude and longitude.
     """
-    try:
-        # Read the CSV file
-        df = pd.read_csv(file_path)
-    except FileNotFoundError:
-        print(f"Error: The file '{file_path}' was not found.")
-        return pd.DataFrame()
-    except Exception as e:
-        print(f"Error reading the CSV file: {e}")
-        return pd.DataFrame()
+    # try:
+    #     # Read the CSV file
+    #     df = pd.read_csv(file_path)
+    # except FileNotFoundError:
+    #     print(f"Error: The file '{file_path}' was not found.")
+    #     return pd.DataFrame()
+    # except Exception as e:
+    #     print(f"Error reading the CSV file: {e}")
+    #     return pd.DataFrame()
+
+    df = file_path
 
     # Assuming 'Gemeinde' is the column with the municipality names
     # and 'Regionalschlüssel' is the unique identifier for the municipality/district
     # We will use 'Gemeinde' for geocoding, as it's more human-readable for the geocoder.
-    if 'Gemeinde' not in df.columns or 'Regionalschlüssel' not in df.columns:
-        print("Error: 'Gemeinde' or 'Regionalschlüssel' column not found in the CSV.")
+    # Adresse_Name,Adresse_Name_Standort,Adresse_Strasse_Standort
+    if 'Adresse_Name_Standort' not in df.columns or 'Adresse_Strasse_Standort' not in df.columns:
+        print("Error: 'Adresse_Name_Standort' or 'Adresse_Strasse_Standort' column not found in the CSV.")
         return pd.DataFrame()
 
     # Initialize Nominatim geocoder with a unique user agent
@@ -62,18 +65,18 @@ def geocode_german_municipalities(file_path):
     geocoded_cache = {}
 
     for index, row in df.iterrows():
-        municipality = row['Gemeinde']
-        regional_key = row['Regionalschlüssel']
+        municipality = row['Adresse_Name_Standort']
+        regional_key = row['Adresse_Strasse_Standort']
 
         # Construct a more precise query for German locations
         # For example, "Flensburg, Stadt, Germany" or "Dithmarschen, Germany"
         # The 'Leer' column seems to be a simplified name, using 'Gemeinde' is better.
-        query = f"{municipality}, Germany"
+        query = f"{municipality}, {regional_key}, Germany"
 
         if query in geocoded_cache:
             lat, lon = geocoded_cache[query]
         else:
-            print(f"Geocoding: {query} (Regionalschlüssel: {regional_key})...")
+            # print(f"Geocoding: {query} (Regionalschlüssel: {regional_key})...")
             lat, lon = get_coordinates_from_placename(query, geolocator)
             geocoded_cache[query] = (lat, lon)
             time.sleep(1)  # Be polite to the Nominatim API (1 second delay per query)

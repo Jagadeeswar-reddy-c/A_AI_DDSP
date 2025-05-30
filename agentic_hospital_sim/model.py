@@ -5,6 +5,8 @@ import pandas as pd
 
 from agents import HospitalAgent, PatientAgent
 
+from geolocations_generator import geocode_german_municipalities
+
 
 class HospitalPlanningModel(Model):
     def __init__(
@@ -31,31 +33,43 @@ class HospitalPlanningModel(Model):
         # Clean column names
         self.coord_df.columns = [c.strip() for c in self.coord_df.columns]
 
+        print(f"✅ - 1 Loaded {len(self.hospital_df)} hospitals, {len(self.distance_df)} distances, and {len(self.coord_df)} coordinates.")
         # Normalize Gemeinde names
         self.hospital_df['Adresse_Ort_Standort'] = self.hospital_df['Adresse_Ort_Standort'].str.strip().str.lower()
         self.coord_df['Gemeinde'] = self.coord_df['Gemeinde'].str.strip().str.lower()
 
+        print(f"✅ - 2 Loaded {len(self.hospital_df)} hospitals, {len(self.distance_df)} distances, and {len(self.coord_df)} coordinates.")
+
+        self.hospital_df = geocode_german_municipalities(self.hospital_df)
+        
+        print(f"✅ = 3 Loaded {len(self.hospital_df)} hospitals, {len(self.distance_df)} distances, and {len(self.coord_df)} coordinates.")
+
+
         # Merge coordinates into hospital_df
-        self.hospital_df = self.hospital_df.merge(
-            self.coord_df[['Gemeinde', 'latitude', 'longitude']],
-            left_on='Adresse_Ort_Standort',
-            right_on='Gemeinde',
-            how='left'
-        )
+        # self.hospital_df = self.hospital_df.merge(
+        #     self.coord_df[['Gemeinde', 'latitude', 'longitude']],
+        #     left_on='Adresse_Ort_Standort',
+        #     right_on='Gemeinde',
+        #     how='left'
+        # )
+
+        print(f"✅ - 4 Loaded {len(self.hospital_df)} hospitals, {len(self.distance_df)} distances, and {len(self.coord_df)} coordinates.")
+
+        # geocode_german_municipalities
 
         # Drop rows without coordinates
         self.hospital_df.dropna(subset=['latitude', 'longitude'], inplace=True)
+
+        print(f"✅ Loaded {len(self.hospital_df)} hospitals, {len(self.distance_df)} distances, and {len(self.coord_df)} coordinates.")
+        
 
         # Convert lat/long to grid positions
         # Normalize latitude and longitude to fit within the grid
         min_lat, max_lat = self.hospital_df['latitude'].min(), self.hospital_df['latitude'].max()
         min_lon, max_lon = self.hospital_df['longitude'].min(), self.hospital_df['longitude'].max()
 
-        self.hospital_df['x'] = (
-                    (self.hospital_df['latitude'] - min_lat) / (max_lat - min_lat) * (self.grid.width - 1)).astype(int)
-        self.hospital_df['y'] = (
-                    (self.hospital_df['longitude'] - min_lon) / (max_lon - min_lon) * (self.grid.height - 1)).astype(
-            int)
+        self.hospital_df['x'] = ((self.hospital_df['latitude'] - min_lat) / (max_lat - min_lat) * (self.grid.width - 1)).astype(int)
+        self.hospital_df['y'] = ((self.hospital_df['longitude'] - min_lon) / (max_lon - min_lon) * (self.grid.height - 1)).astype(int)
 
         # Convert distance matrix into lookup dict
         for _, row in self.distance_df.iterrows():
@@ -71,6 +85,7 @@ class HospitalPlanningModel(Model):
         age_codes = self.age_groups_df["code"].dropna().values.tolist()
         cluster_columns = [col for col in hospital_df.columns if col.isdigit()]
 
+        print(f"Creating agents for {len(hospital_df)} hospitals and {len(distance_df)} patients...")
         # Create Hospital Agents
         for i, row in hospital_df.iterrows():
             hospital_id = i
@@ -138,7 +153,7 @@ class HospitalPlanningModel(Model):
             self.grid.place_agent(patient_agent, (x, y))
 
     def add_patient_assignment(self, patient, hospital):
-        print(f"Assigning {patient.unique_id} to {hospital.unique_id}")
+        # print(f"Assigning {patient.unique_id} to {hospital.unique_id}")
         if hasattr(hospital, "current_patients"):
             hospital.current_patients.append(patient)
         else:

@@ -1,6 +1,8 @@
 # A_AI_DDSP
 
-
+## Requirements
+`Python == 3.8.0`
+`pip install -r requirements.txt`
 
 ## Folder Structure 
 
