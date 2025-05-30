@@ -1,16 +1,18 @@
 from model import HospitalPlanningModel
 import os
+import pandas as pd
 
 def main():
-    base_path = r"C:\Users\user\Desktop\A_AI_DDSP\data\processed"  # Adjust to your actual root folder
+    base_path = "/Users/jagadeeswarreddychennuru/Downloads/A_AI_DDSP/data/processed"  # Adjust to your actual root folder
 
     # Paths to required CSV files
     hospital_data_path = os.path.join(base_path, "Krankenha╠êuser in Deutschland (Krankenhausverzeichnis)", "KHV_2022.csv")
     patient_data_path = os.path.join(base_path, "DRG-Statistik (Patientenvolumen)", "SA 40 2022.csv")
     cluster_mapping_path = os.path.join(base_path, "DRG Fachabteilungcluster", "Sheet1.csv")
     forecast_data_path = os.path.join(base_path, "Bevo╠êlkerungsdaten (Destatis)", "Bevölkerung forecasts_VAR 02.csv")
+    age_groups_df = os.path.join(base_path, "years.csv")
     distance_matrix_path = os.path.join(base_path, "distance_matrix.csv")  # You must create or generate this
-    coord_data_path = r"C:\Users\user\Desktop\A_AI_DDSP\municipalities_with_coordinates.csv"
+    coord_data_path = r"/Users/jagadeeswarreddychennuru/Downloads/A_AI_DDSP/municipalities_with_coordinates.csv"
 
 
     width = 50
@@ -22,6 +24,7 @@ def main():
         distance_matrix_path=distance_matrix_path,
         # forecast_data_path=forecast_data_path,
         coord_data_path=coord_data_path,
+        age_groups_path=age_groups_df,
         # cluster_mapping_path=cluster_mapping_path,
         width=width,
         height=height

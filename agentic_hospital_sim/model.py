@@ -2,9 +2,9 @@ from mesa import Model
 from mesa.space import MultiGrid
 from mesa.time import RandomActivation
 import pandas as pd
-import random
 
 from agents import HospitalAgent, PatientAgent
+
 
 class HospitalPlanningModel(Model):
     def __init__(
@@ -12,6 +12,7 @@ class HospitalPlanningModel(Model):
         hospital_data_path,
         distance_matrix_path,
         coord_data_path,
+        age_groups_path,
         width=50,
         height=50
     ):
@@ -25,6 +26,7 @@ class HospitalPlanningModel(Model):
         self.hospital_df = pd.read_csv(hospital_data_path)
         self.distance_df = pd.read_csv(distance_matrix_path)
         self.coord_df = pd.read_csv(coord_data_path)
+        self.age_groups_df = pd.read_csv(age_groups_path)
 
         # Clean column names
         self.coord_df.columns = [c.strip() for c in self.coord_df.columns]
@@ -45,8 +47,15 @@ class HospitalPlanningModel(Model):
         self.hospital_df.dropna(subset=['latitude', 'longitude'], inplace=True)
 
         # Convert lat/long to grid positions
-        self.hospital_df['x'] = (self.hospital_df['latitude'].astype(float) * 10).astype(int)
-        self.hospital_df['y'] = (self.hospital_df['longitude'].astype(float) * 10).astype(int)
+        # Normalize latitude and longitude to fit within the grid
+        min_lat, max_lat = self.hospital_df['latitude'].min(), self.hospital_df['latitude'].max()
+        min_lon, max_lon = self.hospital_df['longitude'].min(), self.hospital_df['longitude'].max()
+
+        self.hospital_df['x'] = (
+                    (self.hospital_df['latitude'] - min_lat) / (max_lat - min_lat) * (self.grid.width - 1)).astype(int)
+        self.hospital_df['y'] = (
+                    (self.hospital_df['longitude'] - min_lon) / (max_lon - min_lon) * (self.grid.height - 1)).astype(
+            int)
 
         # Convert distance matrix into lookup dict
         for _, row in self.distance_df.iterrows():
@@ -56,47 +65,77 @@ class HospitalPlanningModel(Model):
         self.create_agents()
 
     def create_agents(self):
-        # Create hospital agents
-        for i, row in self.hospital_df.iterrows():
-            x = max(0, min(self.grid.width - 1, int(row['x'])))
-            y = max(0, min(self.grid.height - 1, int(row['y'])))
-            location = (x, y)
-            offered_clusters = [c for c in ['0100', '0200', '0300'] if row.get(c, 0) > 0]  # Example clusters
-            max_capacity = {c: random.randint(5, 15) for c in offered_clusters}
+        hospital_df = self.hospital_df
+        distance_df = self.distance_df
+        coord_df = self.coord_df
+        age_codes = self.age_groups_df["code"].dropna().values.tolist()
+        cluster_columns = [col for col in hospital_df.columns if col.isdigit()]
 
-            hospital = HospitalAgent(
-                unique_id=f"hospital_{i}",
+        # Create Hospital Agents
+        for i, row in hospital_df.iterrows():
+            hospital_id = i
+            hospital_name = row["Adresse_Name"]
+            x = row["x"]
+            y = row["y"]
+
+            offered_clusters = [col for col in cluster_columns if pd.notna(row[col]) and float(row[col]) > 0]
+            max_capacity = {col: int(row[col]) for col in offered_clusters}
+
+            hospital_agent = HospitalAgent(
+                unique_id=f"hospital_{hospital_id}",
                 model=self,
-                location=location,
+                name=hospital_name,
+                location=(x, y),
                 offered_clusters=offered_clusters,
                 max_capacity_per_cluster=max_capacity
             )
-            self.schedule.add(hospital)
-            self.grid.place_agent(hospital, location)
-            self.hospitals.append(hospital)
+            self.schedule.add(hospital_agent)
+            self.grid.place_agent(hospital_agent, (x, y))
 
-        # Create patient agents (example: one per row in distance_df)
-        for i, row in self.distance_df.iterrows():
-            region = row['patient_region']
-            age_group = random.choice(['0-17', '18-64', '65+'])
-            service_cluster = random.choice(['0100', '0200', '0300'])
-            severity = random.uniform(0.1, 1.0)
-            mobility = random.uniform(0.1, 1.0)
-            demand_prob = random.uniform(0.5, 1.0)
+        # Create Patient Agents
+        for i, row in distance_df.iterrows():
+            region_name = row["patient_region"]
+            hospital_id = row["hospital_id"]
+            distance = float(row["distance"])
 
-            patient = PatientAgent(
+            region_coords = coord_df[coord_df["Gemeinde"] == region_name.lower()]
+            if region_coords.empty or pd.isna(region_coords["latitude"].values[0]):
+                continue
+
+            lat = float(region_coords["latitude"].values[0])
+            lon = float(region_coords["longitude"].values[0])
+            x = int(lat * 10)
+            y = int(lon * 10)
+
+            # Clip to grid bounds
+            x = max(0, min(x, self.grid.width - 1))
+            y = max(0, min(y, self.grid.height - 1))
+
+            age_code = age_codes[i % len(age_codes)]
+            age_group = self.age_groups_df[self.age_groups_df["code"] == age_code]["age_group"].values[0]
+
+            if hospital_id not in hospital_df.index:
+                continue
+
+            hospital_row = hospital_df.loc[hospital_id]
+            available_clusters = [col for col in cluster_columns if pd.notna(hospital_row[col]) and float(hospital_row[col]) > 0]
+            if not available_clusters:
+                continue
+
+            cluster = available_clusters[0]  # You may randomize or rotate this
+
+            patient_agent = PatientAgent(
                 unique_id=f"patient_{i}",
                 model=self,
-                region=region,
                 age_group=age_group,
-                service_cluster=service_cluster,
-                severity_score=severity,
-                mobility_score=mobility,
-                demand_probability=demand_prob
+                region=region_name,
+                cluster=cluster,
+                location=(x, y),
+                target_hospital_id=f"hospital_{hospital_id}",
+                distance=distance
             )
-            self.schedule.add(patient)
-            self.patients.append(patient)
-            self.grid.place_agent(patient, (random.randint(0, self.grid.width-1), random.randint(0, self.grid.height-1)))
+            self.schedule.add(patient_agent)
+            self.grid.place_agent(patient_agent, (x, y))
 
     def add_patient_assignment(self, patient, hospital):
         print(f"Assigning {patient.unique_id} to {hospital.unique_id}")

@@ -1,26 +1,38 @@
 from mesa import Agent
-import random
 
 class HospitalAgent(Agent):
-    def __init__(self, unique_id, model, location, offered_clusters, max_capacity_per_cluster):
+    def __init__(self, unique_id, model, name, location, offered_clusters, max_capacity_per_cluster):
         super().__init__(unique_id, model)
+        self.name = name  # Added name attribute
         self.location = location
         self.offered_clusters = offered_clusters
         self.max_capacity_per_cluster = max_capacity_per_cluster
         self.current_patients = []
 
     def step(self):
-        pass  # Hospitals remain passive in this step cycle
+        # Passive step for hospital agent
+        pass
+
 
 class PatientAgent(Agent):
-    def __init__(self, unique_id, model, region, age_group, service_cluster, severity_score, mobility_score, demand_probability):
+    def __init__(
+        self,
+        unique_id,
+        model,
+        region,
+        age_group,
+        cluster,
+        location,
+        target_hospital_id,
+        distance
+    ):
         super().__init__(unique_id, model)
         self.region = region
         self.age_group = age_group
-        self.service_cluster = service_cluster
-        self.severity_score = severity_score
-        self.mobility_score = mobility_score
-        self.demand_probability = demand_probability
+        self.service_cluster = cluster
+        self.location = location
+        self.target_hospital_id = target_hospital_id
+        self.distance = distance
         self.assigned_hospital = None
 
     def step(self):
@@ -31,7 +43,9 @@ class PatientAgent(Agent):
         min_distance = float('inf')
         best_hospital = None
 
-        for hospital in self.model.hospitals:
+        for hospital in self.model.schedule.agents:
+            if not isinstance(hospital, HospitalAgent):
+                continue
             if self.service_cluster not in hospital.offered_clusters:
                 continue
             distance = self.model.distance_matrix.get((self.region, hospital.unique_id), float('inf'))
