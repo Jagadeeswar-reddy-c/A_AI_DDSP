@@ -1,0 +1,30 @@
+MDC – Major Diagnostic Categories,DRG Zuteilung,DRGs gesamt (zum Ansehen anklicken),Fachabteilung,Sekundär
+Prä – Prä-MDC,A01A – A90B; B61A – B61B,76,Notfallaufnahme,Intensivmedizin
+01 – Krankheiten und Störungen des Nervensystems,B01A – B86Z,110,Neurologi,Neurochirurgie
+02 – Krankheiten und Störungen des Auges,C01A – C65Z,30,Augenheilkunde (Ophthalmologie),
+"03 – Krankheiten und Störungen des Ohres, des Mundes und des Halses",D01A – D67Z,56,HNO (Hals-Nasen-Ohren),
+04 – Krankheiten und Störungen der Atmungsorgane,E01A – E79C,66,Pneumologie ,Thoraxchirurgie
+05 – Krankheiten und Störungen des Kreislaufsystems,F01A – F98C,149,Kardiologi,Herzchirurgie
+06 – Krankheiten und Störungen der Verdauungsorgane,G01Z – G77B,90,Gastroenterologie,Viszeralchirurgie
+07 – Krankheiten und Störungen an hepatobiliärem System und Pankreas,H01A – H78Z,49,Gastroenterologie,Innere eEdizin
+08 – Krankheiten und Störungen an Muskel-Skelett-System und Bindegewebe,I01Z – I98Z,178,Orthopädie,Unfallchirurgie
+"09 – Krankheiten und Störungen an Haut, Unterhaut und Mamma",J01Z – J77Z,52,Dermatologie,Senologie
+"10 – Endokrine, Ernährungs- und Stoffwechselkrankheiten",K01Z – K77Z,43,Endokrinologie,Diabetologie
+11 – Krankheiten und Störungen der Harnorgane,L02A – L90C,72,Urologie,Nephrologie
+12 – Krankheiten und Störungen der männlichen Geschlechtsorgane,M01A – M64Z,27,Urologie,Innere eEdizin
+13 – Krankheiten und Störungen der weiblichen Geschlechtsorgane,N01A – N62B,39,Gynäkologie,
+"14 – Schwangerschaft, Geburt und Wochenbett",O01A – O65C,25,Gynäkologie,Geburtshilfe
+15 – Neugeborene,P01Z – P67E,41,Pädiatrie,Neonatologie
+"16 – Krankheiten des Blutes, der blutbildenden Organe und des Immunsystems",Q01Z – Q63B,15,Onkologie,Hämatologie
+17 – Hämatologische und solide Neubildungen,R01A – R77Z,50,Onkologie,Hämatologie
+18A – HIV,S01Z – S65B,7,Infektiologie,
+18B – Infektiöse und parasitäre Krankheiten,T01A – T77Z,25,Infektiologie,Tropenmedizin
+19 – Psychische Krankheiten und Störungen,U01Z – U66Z,13,Psychiatrie,Psychosomatik
+20 – Alkohol- und Drogengebrauch und alkohol- und drogeninduzierte psychische Störungen,V40Z – V64Z,6,Suchtmedizin,Psychiatrie
+21A – Polytrauma,W01A – W61B,14,Unfallchirurgie,Intensivmedizin
+"21B – Verletzungen, Vergiftungen und toxische Wirkungen von Drogen und Medikamenten",X01A – X64Z,17,Unfallchirurgie,Toxikologie
+22 – Verbrennungen,Y01Z – Y63Z,9,Plastische Chirurgie,Intensivmedizin
+"23 – Faktoren, die den Gesundheitszustand beeinflussen, und andere Inanspruchnahme des Gesundheitswesens",Z01A – Z66Z,14,Allgemeinmedizin / Sozialmedizin,Sozialmedizin
+24 – Sonstige DRGs,801A – 863Z,10,Diverse Fachabteilungen,Fachabteilungen
+25 – Teilstationäre pädiatrische Diagnostik und Behandlung,740Z – 749Z,10,,
+-1 – Fehler-DRGs und sonstige DRGs,960Z – 962Z,3,,

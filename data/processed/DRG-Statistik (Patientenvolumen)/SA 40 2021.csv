@@ -1,0 +1,413 @@
+Satzart,Gebietsstand,Regionalschlüssel,Gemeinde,Leer
+40.0,20211231.0,1001,"Flensburg, Stadt",Flensburg
+40.0,20211231.0,1002,"Kiel, Landeshauptstadt",Kiel
+40.0,20211231.0,1003,"Lübeck, Hansestadt",Lübeck
+40.0,20211231.0,1004,"Neumünster, Stadt",Neumünster
+40.0,20211231.0,1051,Dithmarschen,Heide
+40.0,20211231.0,1053,Herzogtum Lauenburg,Ratzeburg
+40.0,20211231.0,1054,Nordfriesland,Husum
+40.0,20211231.0,1055,Ostholstein,Eutin
+40.0,20211231.0,1056,Pinneberg,Elmshorn
+40.0,20211231.0,1057,Plön,Plön
+40.0,20211231.0,1058,Rendsburg-Eckernförde,Rendsburg
+40.0,20211231.0,1059,Schleswig-Flensburg,Schleswig
+40.0,20211231.0,1060,Segeberg,Bad Segeberg
+40.0,20211231.0,1061,Steinburg,Itzehoe
+40.0,20211231.0,1062,Stormarn,Bad Oldesloe
+40.0,20211231.0,2000,"Hamburg, Freie und Hansestadt",Hamburg
+40.0,20211231.0,3101,"Braunschweig, Stadt",Braunschweig
+40.0,20211231.0,3102,"Salzgitter, Stadt",Salzgitter
+40.0,20211231.0,3103,"Wolfsburg, Stadt",Wolfsburg
+40.0,20211231.0,3151,Gifhorn,Gifhorn
+40.0,20211231.0,3153,Goslar,Goslar
+40.0,20211231.0,3154,Helmstedt,Helmstedt
+40.0,20211231.0,3155,Northeim,Northeim
+40.0,20211231.0,3157,Peine,Peine
+40.0,20211231.0,3158,Wolfenbüttel,Wolfenbüttel
+40.0,20211231.0,3159,Göttingen,Göttingen
+40.0,20211231.0,3241,Region Hannover,Hannover
+40.0,20211231.0,3251,Diepholz,Diepholz
+40.0,20211231.0,3252,Hameln-Pyrmont,Hameln
+40.0,20211231.0,3254,Hildesheim,Hildesheim
+40.0,20211231.0,3255,Holzminden,Holzminden
+40.0,20211231.0,3256,Nienburg (Weser),Nienburg/Weser
+40.0,20211231.0,3257,Schaumburg,Stadthagen
+40.0,20211231.0,3351,Celle,Celle
+40.0,20211231.0,3352,Cuxhaven,Cuxhaven
+40.0,20211231.0,3353,Harburg,Winsen/Luhe
+40.0,20211231.0,3354,Lüchow-Dannenberg,"Lüchow, Wendland"
+40.0,20211231.0,3355,Lüneburg,Lüneburg
+40.0,20211231.0,3356,Osterholz,Osterholz-Scharmbeck
+40.0,20211231.0,3357,Rotenburg (Wümme),Rotenburg/Wümme
+40.0,20211231.0,3358,Heidekreis,Bad Fallingbostel
+40.0,20211231.0,3359,Stade,Stade
+40.0,20211231.0,3360,Uelzen,Uelzen
+40.0,20211231.0,3361,Verden,Verden/Aller
+40.0,20211231.0,3401,"Delmenhorst, Stadt",Delmenhorst
+40.0,20211231.0,3402,"Emden, Stadt",Emden/Ostfriesland
+40.0,20211231.0,3403,"Oldenburg (Oldenburg), Stadt",Oldenburg/Oldenburg
+40.0,20211231.0,3404,"Osnabrück, Stadt",Osnabrück
+40.0,20211231.0,3405,"Wilhelmshaven, Stadt",Wilhelmshaven
+40.0,20211231.0,3451,Ammerland,Westerstede
+40.0,20211231.0,3452,Aurich,Aurich
+40.0,20211231.0,3453,Cloppenburg,Cloppenburg
+40.0,20211231.0,3454,Emsland,Meppen
+40.0,20211231.0,3455,Friesland,Jever
+40.0,20211231.0,3456,Grafschaft Bentheim,Nordhorn
+40.0,20211231.0,3457,Leer,Leer/Ostfriesland
+40.0,20211231.0,3458,"Oldenburg, Kreis",Wildeshausen
+40.0,20211231.0,3459,"Osnabrück, Kreis",Osnabrück
+40.0,20211231.0,3460,Vechta,Vechta
+40.0,20211231.0,3461,Wesermarsch,Brake/Unterweser
+40.0,20211231.0,3462,Wittmund,Wittmund
+40.0,20211231.0,4011,"Bremen, Stadt",Bremen
+40.0,20211231.0,4012,"Bremerhaven, Stadt",Bremerhaven
+40.0,20211231.0,5111,"Düsseldorf, Stadt",Düsseldorf
+40.0,20211231.0,5112,"Duisburg, Stadt",Duisburg
+40.0,20211231.0,5113,"Essen, Stadt",Essen
+40.0,20211231.0,5114,"Krefeld, Stadt",Krefeld
+40.0,20211231.0,5116,"Mönchengladbach, Stadt",Mönchengladbach
+40.0,20211231.0,5117,"Mülheim an der Ruhr, Stadt",Mülheim an der Ruhr
+40.0,20211231.0,5119,"Oberhausen, Stadt",Oberhausen
+40.0,20211231.0,5120,"Remscheid, Stadt",Remscheid
+40.0,20211231.0,5122,"Solingen, Klingenstadt",Solingen
+40.0,20211231.0,5124,"Wuppertal, Stadt",Wuppertal
+40.0,20211231.0,5154,Kleve,Kleve
+40.0,20211231.0,5158,Mettmann,Mettmann
+40.0,20211231.0,5162,Rhein-Kreis Neuss,Neuss
+40.0,20211231.0,5166,Viersen,Viersen
+40.0,20211231.0,5170,Wesel,Wesel
+40.0,20211231.0,5314,"Bonn, Stadt",Bonn
+40.0,20211231.0,5315,"Köln, Stadt",Köln
+40.0,20211231.0,5316,"Leverkusen, Stadt",Leverkusen
+40.0,20211231.0,5334,Städteregion Aachen,Aachen
+40.0,20211231.0,5358,Düren,Düren
+40.0,20211231.0,5362,Rhein-Erft-Kreis,Bergheim
+40.0,20211231.0,5366,Euskirchen,Euskirchen
+40.0,20211231.0,5370,Heinsberg,Heinsberg
+40.0,20211231.0,5374,Oberbergischer Kreis,Gummersbach
+40.0,20211231.0,5378,Rheinisch-Bergischer Kreis,Bergisch Gladbach
+40.0,20211231.0,5382,Rhein-Sieg-Kreis,Siegburg
+40.0,20211231.0,5512,"Bottrop, Stadt",Bottrop
+40.0,20211231.0,5513,"Gelsenkirchen, Stadt",Gelsenkirchen
+40.0,20211231.0,5515,"Münster, Stadt",Münster
+40.0,20211231.0,5554,Borken,Borken
+40.0,20211231.0,5558,Coesfeld,Coesfeld
+40.0,20211231.0,5562,Recklinghausen,Recklinghausen
+40.0,20211231.0,5566,Steinfurt,Steinfurt
+40.0,20211231.0,5570,Warendorf,Warendorf
+40.0,20211231.0,5711,"Bielefeld, Stadt",Bielefeld
+40.0,20211231.0,5754,Gütersloh,Gütersloh
+40.0,20211231.0,5758,Herford,Herford
+40.0,20211231.0,5762,Höxter,Höxter
+40.0,20211231.0,5766,Lippe,Detmold
+40.0,20211231.0,5770,Minden-Lübbecke,Minden
+40.0,20211231.0,5774,Paderborn,Paderborn
+40.0,20211231.0,5911,"Bochum, Stadt",Bochum
+40.0,20211231.0,5913,"Dortmund, Stadt",Dortmund
+40.0,20211231.0,5914,"Hagen, Stadt der FernUniversität",Hagen
+40.0,20211231.0,5915,"Hamm, Stadt",Hamm
+40.0,20211231.0,5916,"Herne, Stadt",Herne
+40.0,20211231.0,5954,Ennepe-Ruhr-Kreis,Schwelm
+40.0,20211231.0,5958,Hochsauerlandkreis,Meschede
+40.0,20211231.0,5962,Märkischer Kreis,Lüdenscheid
+40.0,20211231.0,5966,Olpe,Olpe
+40.0,20211231.0,5970,Siegen-Wittgenstein,Siegen
+40.0,20211231.0,5974,Soest,Soest
+40.0,20211231.0,5978,Unna,Unna
+40.0,20211231.0,6411,"Darmstadt, Wissenschaftsstadt",Darmstadt
+40.0,20211231.0,6412,"Frankfurt am Main, Stadt",Frankfurt am Main
+40.0,20211231.0,6413,"Offenbach am Main, Stadt",Offenbach am Main
+40.0,20211231.0,6414,"Wiesbaden, Landeshauptstadt",Wiesbaden
+40.0,20211231.0,6431,Bergstraße,Heppenheim
+40.0,20211231.0,6432,Darmstadt-Dieburg,Darmstadt
+40.0,20211231.0,6433,Groß-Gerau,Groß-Gerau
+40.0,20211231.0,6434,Hochtaunuskreis,Bad Homburg v. d. Höhe
+40.0,20211231.0,6435,Main-Kinzig-Kreis,Gelnhausen
+40.0,20211231.0,6436,Main-Taunus-Kreis,Hofheim a. T.
+40.0,20211231.0,6437,Odenwaldkreis,Erbach
+40.0,20211231.0,6438,"Offenbach, Kreis",Dietzenbach
+40.0,20211231.0,6439,Rheingau-Taunus-Kreis,Bad Schwalbach
+40.0,20211231.0,6440,Wetteraukreis,Friedberg (Hessen)
+40.0,20211231.0,6531,Gießen,Gießen
+40.0,20211231.0,6532,Lahn-Dill-Kreis,Wetzlar
+40.0,20211231.0,6533,Limburg-Weilburg,Limburg a.d.Lahn
+40.0,20211231.0,6534,Marburg-Biedenkopf,Marburg
+40.0,20211231.0,6535,Vogelsbergkreis,Lauterbach
+40.0,20211231.0,6611,"Kassel, documenta-Stadt",Kassel
+40.0,20211231.0,6631,Fulda,Fulda
+40.0,20211231.0,6632,Hersfeld-Rotenburg,Bad Hersfeld
+40.0,20211231.0,6633,"Kassel, Kreis",Kassel
+40.0,20211231.0,6634,Schwalm-Eder-Kreis,Homberg (Efze)
+40.0,20211231.0,6635,Waldeck-Frankenberg,Korbach
+40.0,20211231.0,6636,Werra-Meißner-Kreis,Eschwege
+40.0,20211231.0,7111,"Koblenz, kreisfreie Stadt",Koblenz
+40.0,20211231.0,7131,Ahrweiler,Bad Neuenahr-Ahrweiler
+40.0,20211231.0,7132,Altenkirchen (Westerwald),Altenkirchen (Westerwald)
+40.0,20211231.0,7133,Bad Kreuznach,Bad Kreuznach
+40.0,20211231.0,7134,Birkenfeld,Birkenfeld
+40.0,20211231.0,7135,Cochem-Zell,Cochem
+40.0,20211231.0,7137,Mayen-Koblenz,Koblenz
+40.0,20211231.0,7138,Neuwied,Neuwied
+40.0,20211231.0,7140,Rhein-Hunsrück-Kreis,Simmern/Hunsrück
+40.0,20211231.0,7141,Rhein-Lahn-Kreis,Bad Ems
+40.0,20211231.0,7143,Westerwaldkreis,Montabaur
+40.0,20211231.0,7211,"Trier, kreisfreie Stadt",Trier
+40.0,20211231.0,7231,Bernkastel-Wittlich,Wittlich
+40.0,20211231.0,7232,Eifelkreis Bitburg-Prüm,Bitburg
+40.0,20211231.0,7233,Vulkaneifel,Daun
+40.0,20211231.0,7235,Trier-Saarburg,Trier
+40.0,20211231.0,7311,"Frankenthal (Pfalz), kreisfreie Stadt",Frankenthal (Pfalz)
+40.0,20211231.0,7312,"Kaiserslautern, kreisfreie Stadt",Kaiserslautern
+40.0,20211231.0,7313,"Landau in der Pfalz, kreisfreie Stadt",Landau in der Pfalz
+40.0,20211231.0,7314,"Ludwigshafen am Rhein, kreisfreie Stadt",Ludwigshafen am Rhein
+40.0,20211231.0,7315,"Mainz, kreisfreie Stadt",Mainz
+40.0,20211231.0,7316,"Neustadt an der Weinstraße, kreisfreie Stadt",Neustadt an der Weinstraße
+40.0,20211231.0,7317,"Pirmasens, kreisfreie Stadt",Pirmasens
+40.0,20211231.0,7318,"Speyer, kreisfreie Stadt",Speyer
+40.0,20211231.0,7319,"Worms, kreisfreie Stadt",Worms
+40.0,20211231.0,7320,"Zweibrücken, kreisfreie Stadt",Zweibrücken
+40.0,20211231.0,7331,Alzey-Worms,Alzey
+40.0,20211231.0,7332,Bad Dürkheim,Bad Dürkheim
+40.0,20211231.0,7333,Donnersbergkreis,Kirchheimbolanden
+40.0,20211231.0,7334,Germersheim,Germersheim
+40.0,20211231.0,7335,Kaiserslautern (Kreis),Kaiserslautern
+40.0,20211231.0,7336,Kusel,Kusel
+40.0,20211231.0,7337,Südliche Weinstraße,Landau in der Pfalz
+40.0,20211231.0,7338,Rhein-Pfalz-Kreis,Ludwigshafen am Rhein
+40.0,20211231.0,7339,Mainz-Bingen,Ingelheim am Rhein
+40.0,20211231.0,7340,Südwestpfalz,Pirmasens
+40.0,20211231.0,8111,"Stuttgart, Stadtkreis",Stuttgart
+40.0,20211231.0,8115,Böblingen,Böblingen
+40.0,20211231.0,8116,Esslingen,Esslingen am Neckar
+40.0,20211231.0,8117,Göppingen,Göppingen
+40.0,20211231.0,8118,Ludwigsburg,Ludwigsburg
+40.0,20211231.0,8119,Rems-Murr-Kreis,Waiblingen
+40.0,20211231.0,8121,"Heilbronn, Stadtkreis",Heilbronn
+40.0,20211231.0,8125,"Heilbronn, Kreis",Heilbronn
+40.0,20211231.0,8126,Hohenlohekreis,Künzelsau
+40.0,20211231.0,8127,Schwäbisch Hall,Schwäbisch Hall
+40.0,20211231.0,8128,Main-Tauber-Kreis,Tauberbischofsheim
+40.0,20211231.0,8135,Heidenheim,Heidenheim an der Brenz
+40.0,20211231.0,8136,Ostalbkreis,Aalen
+40.0,20211231.0,8211,"Baden-Baden, Stadtkreis",Baden-Baden
+40.0,20211231.0,8212,"Karlsruhe, Stadtkreis",Karlsruhe
+40.0,20211231.0,8215,"Karlsruhe, Kreis",Karlsruhe
+40.0,20211231.0,8216,Rastatt,Rastatt
+40.0,20211231.0,8221,"Heidelberg, Stadtkreis",Heidelberg
+40.0,20211231.0,8222,"Mannheim, Stadtkreis",Mannheim
+40.0,20211231.0,8225,Neckar-Odenwald-Kreis,Mosbach
+40.0,20211231.0,8226,Rhein-Neckar-Kreis,Heidelberg
+40.0,20211231.0,8231,"Pforzheim, Stadtkreis",Pforzheim
+40.0,20211231.0,8235,Calw,Calw
+40.0,20211231.0,8236,Enzkreis,Pforzheim
+40.0,20211231.0,8237,Freudenstadt,Freudenstadt
+40.0,20211231.0,8311,"Freiburg im Breisgau, Stadtkreis",Freiburg im Breisgau
+40.0,20211231.0,8315,Breisgau-Hochschwarzwald,Freiburg im Breisgau
+40.0,20211231.0,8316,Emmendingen,Emmendingen
+40.0,20211231.0,8317,Ortenaukreis,Offenburg
+40.0,20211231.0,8325,Rottweil,Rottweil
+40.0,20211231.0,8326,Schwarzwald-Baar-Kreis,Villingen-Schwenningen
+40.0,20211231.0,8327,Tuttlingen,Tuttlingen
+40.0,20211231.0,8335,Konstanz,Konstanz
+40.0,20211231.0,8336,Lörrach,Lörrach
+40.0,20211231.0,8337,Waldshut,Waldshut-Tiengen
+40.0,20211231.0,8415,Reutlingen,Reutlingen
+40.0,20211231.0,8416,Tübingen,Tübingen
+40.0,20211231.0,8417,Zollernalbkreis,Balingen
+40.0,20211231.0,8421,"Ulm, Stadtkreis",Ulm
+40.0,20211231.0,8425,Alb-Donau-Kreis,Ulm
+40.0,20211231.0,8426,Biberach,Biberach an der Riß
+40.0,20211231.0,8435,Bodenseekreis,Friedrichshafen
+40.0,20211231.0,8436,Ravensburg,Ravensburg
+40.0,20211231.0,8437,Sigmaringen,Sigmaringen
+40.0,20211231.0,9161,Ingolstadt,Ingolstadt
+40.0,20211231.0,9162,"München, Landeshauptstadt",München
+40.0,20211231.0,9163,"Rosenheim, Stadt",Rosenheim
+40.0,20211231.0,9171,Altötting,Altötting
+40.0,20211231.0,9172,Berchtesgadener Land,Bad Reichenhall
+40.0,20211231.0,9173,Bad Tölz-Wolfratshausen,Bad Tölz
+40.0,20211231.0,9174,Dachau,Dachau
+40.0,20211231.0,9175,Ebersberg,Ebersberg
+40.0,20211231.0,9176,Eichstätt,Eichstätt
+40.0,20211231.0,9177,Erding,Erding
+40.0,20211231.0,9178,Freising,Freising
+40.0,20211231.0,9179,Fürstenfeldbruck,Fürstenfeldbruck
+40.0,20211231.0,9180,Garmisch-Partenkirchen,Garmisch-Partenkirchen
+40.0,20211231.0,9181,Landsberg am Lech,Landsberg am Lech
+40.0,20211231.0,9182,Miesbach,Miesbach
+40.0,20211231.0,9183,Mühldorf a.Inn,Mühldorf a.Inn
+40.0,20211231.0,9184,"München, Kreis",München
+40.0,20211231.0,9185,Neuburg-Schrobenhausen,Neuburg a.d.Donau
+40.0,20211231.0,9186,Pfaffenhofen a.d.Ilm,Pfaffenhofen a.d.Ilm
+40.0,20211231.0,9187,"Rosenheim, Kreis",Rosenheim
+40.0,20211231.0,9188,Starnberg,Starnberg
+40.0,20211231.0,9189,Traunstein,Traunstein
+40.0,20211231.0,9190,Weilheim-Schongau,Weilheim i.OB
+40.0,20211231.0,9261,"Landshut, Stadt",Landshut
+40.0,20211231.0,9262,"Passau, Stadt",Passau
+40.0,20211231.0,9263,Straubing,Straubing
+40.0,20211231.0,9271,Deggendorf,Deggendorf
+40.0,20211231.0,9272,Freyung-Grafenau,Freyung
+40.0,20211231.0,9273,Kelheim,Kelheim
+40.0,20211231.0,9274,"Landshut, Kreis",Landshut
+40.0,20211231.0,9275,"Passau, Kreis",Passau
+40.0,20211231.0,9276,Regen,Regen
+40.0,20211231.0,9277,Rottal-Inn,Pfarrkirchen
+40.0,20211231.0,9278,Straubing-Bogen,Straubing
+40.0,20211231.0,9279,Dingolfing-Landau,Dingolfing
+40.0,20211231.0,9361,Amberg,Amberg
+40.0,20211231.0,9362,"Regensburg, Stadt",Regensburg
+40.0,20211231.0,9363,Weiden i.d.OPf.,Weiden i.d.OPf.
+40.0,20211231.0,9371,Amberg-Sulzbach,Amberg
+40.0,20211231.0,9372,Cham,Cham
+40.0,20211231.0,9373,Neumarkt i.d.OPf.,Neumarkt i.d.OPf.
+40.0,20211231.0,9374,Neustadt a.d.Waldnaab,Neustadt a.d.Waldnaab
+40.0,20211231.0,9375,"Regensburg, Kreis",Regensburg
+40.0,20211231.0,9376,Schwandorf,Schwandorf
+40.0,20211231.0,9377,Tirschenreuth,Tirschenreuth
+40.0,20211231.0,9461,"Bamberg, Stadt",Bamberg
+40.0,20211231.0,9462,"Bayreuth, Stadt",Bayreuth
+40.0,20211231.0,9463,"Coburg, Stadt",Coburg
+40.0,20211231.0,9464,"Hof, Stadt",Hof
+40.0,20211231.0,9471,"Bamberg, Kreis",Bamberg
+40.0,20211231.0,9472,"Bayreuth, Kreis",Bayreuth
+40.0,20211231.0,9473,"Coburg, Kreis",Coburg
+40.0,20211231.0,9474,Forchheim,Forchheim
+40.0,20211231.0,9475,"Hof, Kreis",Hof
+40.0,20211231.0,9476,Kronach,Kronach
+40.0,20211231.0,9477,Kulmbach,Kulmbach
+40.0,20211231.0,9478,Lichtenfels,Lichtenfels
+40.0,20211231.0,9479,Wunsiedel i.Fichtelgebirge,Wunsiedel
+40.0,20211231.0,9561,"Ansbach, Stadt",Ansbach
+40.0,20211231.0,9562,Erlangen,Erlangen
+40.0,20211231.0,9563,"Fürth, Stadt",Fürth
+40.0,20211231.0,9564,Nürnberg,Nürnberg
+40.0,20211231.0,9565,Schwabach,Schwabach
+40.0,20211231.0,9571,"Ansbach, Kreis",Ansbach
+40.0,20211231.0,9572,Erlangen-Höchstadt,Erlangen
+40.0,20211231.0,9573,"Fürth, Kreis",Zirndorf
+40.0,20211231.0,9574,Nürnberger Land,Lauf a.d.Pegnitz
+40.0,20211231.0,9575,Neustadt a.d.Aisch-Bad Windsheim,Neustadt a.d.Aisch
+40.0,20211231.0,9576,Roth,Roth
+40.0,20211231.0,9577,Weißenburg-Gunzenhausen,Weißenburg i.Bay.
+40.0,20211231.0,9661,"Aschaffenburg, Stadt",Aschaffenburg
+40.0,20211231.0,9662,"Schweinfurt, Stadt",Schweinfurt
+40.0,20211231.0,9663,"Würzburg, Stadt",Würzburg
+40.0,20211231.0,9671,"Aschaffenburg, Kreis",Aschaffenburg
+40.0,20211231.0,9672,Bad Kissingen,Bad Kissingen
+40.0,20211231.0,9673,Rhön-Grabfeld,Bad Neustadt a.d.Saale
+40.0,20211231.0,9674,Haßberge,Haßfurt
+40.0,20211231.0,9675,Kitzingen,Kitzingen
+40.0,20211231.0,9676,Miltenberg,Miltenberg
+40.0,20211231.0,9677,Main-Spessart,Karlstadt
+40.0,20211231.0,9678,"Schweinfurt, Kreis",Schweinfurt
+40.0,20211231.0,9679,"Würzburg, Kreis",Würzburg
+40.0,20211231.0,9761,"Augsburg, Stadt",Augsburg
+40.0,20211231.0,9762,Kaufbeuren,Kaufbeuren
+40.0,20211231.0,9763,Kempten (Allgäu),Kempten (Allgäu)
+40.0,20211231.0,9764,Memmingen,Memmingen
+40.0,20211231.0,9771,Aichach-Friedberg,Aichach
+40.0,20211231.0,9772,"Augsburg, Kreis",Augsburg
+40.0,20211231.0,9773,Dillingen a.d.Donau,Dillingen a.d.Donau
+40.0,20211231.0,9774,Günzburg,Günzburg
+40.0,20211231.0,9775,Neu-Ulm,Neu-Ulm
+40.0,20211231.0,9776,Lindau (Bodensee),Lindau (Bodensee)
+40.0,20211231.0,9777,Ostallgäu,Marktoberdorf
+40.0,20211231.0,9778,Unterallgäu,Mindelheim
+40.0,20211231.0,9779,Donau-Ries,Donauwörth
+40.0,20211231.0,9780,Oberallgäu,Sonthofen
+40.0,20211231.0,10041,Regionalverband Saarbrücken,"Saarbrücken, Landeshauptstadt"
+40.0,20211231.0,10042,Merzig-Wadern,"Merzig, Kreisstadt"
+40.0,20211231.0,10043,Neunkirchen,Ottweiler
+40.0,20211231.0,10044,Saarlouis,"Saarlouis, Kreisstadt"
+40.0,20211231.0,10045,Saarpfalz-Kreis,"Homburg, Kreisstadt"
+40.0,20211231.0,10046,St. Wendel,"St. Wendel, Kreisstadt"
+40.0,20211231.0,11000,"Berlin, Stadt",Berlin
+,,11001,Berlin-Mitte,
+,,11002,Berlin-Friedrichshain-Kreuzberg,
+,,11003,Berlin-Pankow,
+,,11004,Berlin-Charlottenburg-Wilmersdorf,
+,,11005,Berlin-Spandau,
+,,11006,Berlin-Steglitz-Zehlendorf,
+,,11007,Berlin-Tempelhof-Schöneberg,
+,,11008,Berlin-Neukölln,
+,,11009,Berlin-Treptow-Köpenick,
+,,11010,Berlin-Marzahn-Hellersdorf,
+,,11011,Berlin-Lichtenberg,
+,,11012,Berlin-Reinickendorf,
+40.0,20211231.0,12051,"Brandenburg an der Havel, Stadt",Brandenburg an der Havel
+40.0,20211231.0,12052,"Cottbus, Stadt",Cottbus
+40.0,20211231.0,12053,"Frankfurt (Oder), Stadt",Frankfurt (Oder)
+40.0,20211231.0,12054,"Potsdam, Stadt",Potsdam
+40.0,20211231.0,12060,Barnim,Eberswalde
+40.0,20211231.0,12061,Dahme-Spreewald,Lübben(Spreewald)
+40.0,20211231.0,12062,Elbe-Elster,Herzberg/Elster
+40.0,20211231.0,12063,Havelland,Rathenow
+40.0,20211231.0,12064,Märkisch-Oderland,Seelow
+40.0,20211231.0,12065,Oberhavel,Oranienburg
+40.0,20211231.0,12066,Oberspreewald-Lausitz,Senftenberg
+40.0,20211231.0,12067,Oder-Spree,Beeskow
+40.0,20211231.0,12068,Ostprignitz-Ruppin,Neuruppin
+40.0,20211231.0,12069,Potsdam-Mittelmark,Bad Belzig
+40.0,20211231.0,12070,Prignitz,Perleberg
+40.0,20211231.0,12071,Spree-Neiße,Forst(Lausitz)
+40.0,20211231.0,12072,Teltow-Fläming,Luckenwalde
+40.0,20211231.0,12073,Uckermark,Prenzlau
+40.0,20211231.0,13003,Rostock,Rostock
+40.0,20211231.0,13004,Schwerin,Schwerin
+40.0,20211231.0,13071,Mecklenburgische Seenplatte,Neubrandenburg
+40.0,20211231.0,13072,Landkreis Rostock,Güstrow
+40.0,20211231.0,13073,Vorpommern-Rügen,Stralsund
+40.0,20211231.0,13074,Nordwestmecklenburg,Wismar
+40.0,20211231.0,13075,Vorpommern-Greifswald,Greifswald
+40.0,20211231.0,13076,Ludwigslust-Parchim,Parchim
+40.0,20211231.0,14511,"Chemnitz, Stadt",Chemnitz
+40.0,20211231.0,14521,Erzgebirgskreis,Annaberg-Buchholz
+40.0,20211231.0,14522,Mittelsachsen,Freiberg
+40.0,20211231.0,14523,Vogtlandkreis,Plauen
+40.0,20211231.0,14524,Zwickau,Zwickau
+40.0,20211231.0,14612,"Dresden, Stadt",Dresden
+40.0,20211231.0,14625,Bautzen,Bautzen
+40.0,20211231.0,14626,Görlitz,Görlitz
+40.0,20211231.0,14627,Meißen,Meißen
+40.0,20211231.0,14628,Sächsische Schweiz-Osterzgebirge,Pirna
+40.0,20211231.0,14713,"Leipzig, Stadt",Leipzig
+40.0,20211231.0,14729,"Leipzig, Kreis",Borna
+40.0,20211231.0,14730,Nordsachsen,Torgau
+40.0,20211231.0,15001,"Dessau-Roßlau, Stadt",Dessau-Roßlau
+40.0,20211231.0,15002,"Halle (Saale), Stadt",Halle (Saale)
+40.0,20211231.0,15003,"Magdeburg, Landeshauptstadt",Magdeburg
+40.0,20211231.0,15081,Altmarkkreis Salzwedel,Salzwedel
+40.0,20211231.0,15082,Anhalt-Bitterfeld,Köthen (Anhalt)
+40.0,20211231.0,15083,Börde,Haldensleben
+40.0,20211231.0,15084,Burgenlandkreis,Naumburg (Saale)
+40.0,20211231.0,15085,Harz,Halberstadt
+40.0,20211231.0,15086,Jerichower Land,Burg
+40.0,20211231.0,15087,Mansfeld-Südharz,Sangerhausen
+40.0,20211231.0,15088,Saalekreis,Merseburg
+40.0,20211231.0,15089,Salzlandkreis,Bernburg (Saale)
+40.0,20211231.0,15090,Stendal,Stendal
+40.0,20211231.0,15091,Wittenberg,Lutherstadt Wittenberg
+40.0,20211231.0,16051,"Erfurt, Stadt",Erfurt
+40.0,20211231.0,16052,"Gera, Stadt",Gera
+40.0,20211231.0,16053,"Jena, Stadt",Jena
+40.0,20211231.0,16054,"Suhl, Stadt",Suhl
+40.0,20211231.0,16055,"Weimar, Stadt",Weimar
+40.0,20211231.0,16061,Eichsfeld,Heilbad Heiligenstadt
+40.0,20211231.0,16062,Nordhausen,Nordhausen
+40.0,20211231.0,16063,Wartburgkreis,Bad Salzungen
+40.0,20211231.0,16064,Unstrut-Hainich-Kreis,Mühlhausen
+40.0,20211231.0,16065,Kyffhäuserkreis,Sondershausen
+40.0,20211231.0,16066,Schmalkalden-Meiningen,Meiningen
+40.0,20211231.0,16067,Gotha,Gotha/Thür.
+40.0,20211231.0,16068,Sömmerda,Sömmerda
+40.0,20211231.0,16069,Hildburghausen,Hildburghausen
+40.0,20211231.0,16070,Ilm-Kreis,Arnstadt
+40.0,20211231.0,16071,Weimarer Land,Apolda
+40.0,20211231.0,16072,Sonneberg,Sonneberg
+40.0,20211231.0,16073,Saalfeld-Rudolstadt,Saalfeld
+40.0,20211231.0,16074,Saale-Holzland-Kreis,Eisenberg
+40.0,20211231.0,16075,Saale-Orla-Kreis,Schleiz
+40.0,20211231.0,16076,Greiz,Greiz
+40.0,20211231.0,16077,Altenburger Land,Altenburg

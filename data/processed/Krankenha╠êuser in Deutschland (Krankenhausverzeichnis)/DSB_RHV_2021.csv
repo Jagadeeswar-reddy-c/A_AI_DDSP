@@ -1,0 +1,65 @@
+Feldbezeichnung,Inhalt
+Land,Land
+Kreis,Kreis (in Ländern mit Regierungsbezirken steht die erste Stelle des Kreis-
+,schlüssels für den Regierungsbezirk)
+Gemeinde,Gemeinde
+Adresse_Name,Name der Einrichtung
+Adresse _Strasse,Straße
+Adresse _Haus-Nr.,Hausnummer
+Adresse _Postleitzahl,Zustellbezogene Postleitzahl
+Adresse _Ort,Zustellbezogener Ort
+Telefonvorwahl/-nummer,Telefonvorwahl/-nummer
+E-Mail Adresse,E-Mail Adresse
+Internet-Adresse,Internet-Adresse
+Traeger,Art des Trägers 
+,1 = öffentlicher Träger
+,2 = freigemeinnütziger Träger
+,3 = privater Träger
+T_Name,Name des Trägers
+EinrichtungsTyp,Art der Einrichtung
+,6 = Vorsorge- oder Rehabilitationseinrichtung nach § 111 SGB V
+,7 = sonstige Vorsorge- oder Rehabilitationseinrichtung
+INSG,Aufgestellte Betten insgesamt
+0000,Keine Zuordnung zu spezifischem Fachgebiet
+0100,Innere Medizin
+0200,Geriatrie
+0300,Kardiologie
+0400,Nephrologie
+0500,Hämatologie und internistische Onkologie
+0600,Endokrinologie
+0700,Gastroenterologie
+0800,Pneumologie
+0900,Rheumatologie
+1000,Pädiatrie
+1100,Kinderkardiologie
+1200,Neonatologie
+1300,Kinderchirurgie
+1400,Lungen- und Bronchialheilkunde
+1500,Allgemeine Chirurgie
+1600,Unfallchirurgie
+1700,Neurochirurgie
+1800,Gefäßchirurgie
+1900,Plastische Chirurgie
+2000,Thoraxchirurgie
+2100,Herzchirurgie
+2200,Urologie
+2300,Orthopädie
+2400,Frauenheilkunde und Geburtshilfe
+2500,Geburtshilfe
+2600,"Hals-, Nasen-, Ohrenheilkunde"
+2700,Augenheilkunde
+2800,Neurologie
+2900,Allgemeine Psychiatrie
+3000,Kinder- und Jugendpsychiatrie
+3100,Psychosomatik/Psychotherapie
+3200,Nuklearmedizin
+3300,Strahlenheilkunde
+3400,Dermatologie
+3500,"Zahn- und Kieferheilkunde, Mund- und Kieferchirurgie"
+3600,Intensivmedizin
+3700,Sonstige Fachabteilung
+8200,Prävention
+8500,Entwöhnungsbehandlungen
+8600,Med. berufliche Rehabilitation
+8800,Rehabilitation psychisch Kranker (RPK)
+9000,Sondertatbestände

@@ -1,0 +1,403 @@
+"Schlüsselnummer,
+1. und 2. Stelle = Land",Regionale Bezeichnung,Kreisfreie Stadt
+,,
+1001.0,Kreisfreie Stadt,"Flensburg, Stadt"
+1002.0,Kreisfreie Stadt,"Kiel, Landeshauptstadt"
+1003.0,Kreisfreie Stadt,"Lübeck, Hansestadt"
+1004.0,Kreisfreie Stadt,"Neumünster, Stadt"
+1051.0,Kreis,Dithmarschen
+1053.0,Kreis,Herzogtum Lauenburg
+1054.0,Kreis,Nordfriesland
+1055.0,Kreis,Ostholstein
+1056.0,Kreis,Pinneberg
+1057.0,Kreis,Plön
+1058.0,Kreis,Rendsburg-Eckernförde
+1059.0,Kreis,Schleswig-Flensburg
+1060.0,Kreis,Segeberg
+1061.0,Kreis,Steinburg
+1062.0,Kreis,Stormarn
+2000.0,Kreisfreie Stadt,"Hamburg, Freie und Hansestadt"
+3101.0,Kreisfreie Stadt,"Braunschweig, Stadt"
+3102.0,Kreisfreie Stadt,"Salzgitter, Stadt"
+3103.0,Kreisfreie Stadt,"Wolfsburg, Stadt"
+3151.0,Landkreis,Gifhorn
+3153.0,Landkreis,Goslar
+3154.0,Landkreis,Helmstedt
+3155.0,Landkreis,Northeim
+3157.0,Landkreis,Peine
+3158.0,Landkreis,Wolfenbüttel
+3159.0,Landkreis,Göttingen
+3241.0,Landkreis,Region Hannover
+3251.0,Landkreis,Diepholz
+3252.0,Landkreis,Hameln-Pyrmont
+3254.0,Landkreis,Hildesheim
+3255.0,Landkreis,Holzminden
+3256.0,Landkreis,Nienburg (Weser)
+3257.0,Landkreis,Schaumburg
+3351.0,Landkreis,Celle
+3352.0,Landkreis,Cuxhaven
+3353.0,Landkreis,Harburg
+3354.0,Landkreis,Lüchow-Dannenberg
+3355.0,Landkreis,Lüneburg
+3356.0,Landkreis,Osterholz
+3357.0,Landkreis,Rotenburg (Wümme)
+3358.0,Landkreis,Heidekreis
+3359.0,Landkreis,Stade
+3360.0,Landkreis,Uelzen
+3361.0,Landkreis,Verden
+3401.0,Kreisfreie Stadt,"Delmenhorst, Stadt"
+3402.0,Kreisfreie Stadt,"Emden, Stadt"
+3403.0,Kreisfreie Stadt,"Oldenburg (Oldenburg), Stadt"
+3404.0,Kreisfreie Stadt,"Osnabrück, Stadt"
+3405.0,Kreisfreie Stadt,"Wilhelmshaven, Stadt"
+3451.0,Landkreis,Ammerland
+3452.0,Landkreis,Aurich
+3453.0,Landkreis,Cloppenburg
+3454.0,Landkreis,Emsland
+3455.0,Landkreis,Friesland
+3456.0,Landkreis,Grafschaft Bentheim
+3457.0,Landkreis,Leer
+3458.0,Landkreis,Oldenburg
+3459.0,Landkreis,Osnabrück
+3460.0,Landkreis,Vechta
+3461.0,Landkreis,Wesermarsch
+3462.0,Landkreis,Wittmund
+4011.0,Kreisfreie Stadt,"Bremen, Stadt"
+4012.0,Kreisfreie Stadt,"Bremerhaven, Stadt"
+5111.0,Kreisfreie Stadt,"Düsseldorf, Stadt"
+5112.0,Kreisfreie Stadt,"Duisburg, Stadt"
+5113.0,Kreisfreie Stadt,"Essen, Stadt"
+5114.0,Kreisfreie Stadt,"Krefeld, Stadt"
+5116.0,Kreisfreie Stadt,"Mönchengladbach, Stadt"
+5117.0,Kreisfreie Stadt,"Mülheim an der Ruhr, Stadt"
+5119.0,Kreisfreie Stadt,"Oberhausen, Stadt"
+5120.0,Kreisfreie Stadt,"Remscheid, Stadt"
+5122.0,Kreisfreie Stadt,"Solingen, Klingenstadt"
+5124.0,Kreisfreie Stadt,"Wuppertal, Stadt"
+5154.0,Kreis,Kleve
+5158.0,Kreis,Mettmann
+5162.0,Kreis,Rhein-Kreis Neuss
+5166.0,Kreis,Viersen
+5170.0,Kreis,Wesel
+5314.0,Kreisfreie Stadt,"Bonn, Stadt"
+5315.0,Kreisfreie Stadt,"Köln, Stadt"
+5316.0,Kreisfreie Stadt,"Leverkusen, Stadt"
+5334.0,Kreis,Städteregion Aachen
+5358.0,Kreis,Düren
+5362.0,Kreis,Rhein-Erft-Kreis
+5366.0,Kreis,Euskirchen
+5370.0,Kreis,Heinsberg
+5374.0,Kreis,Oberbergischer Kreis
+5378.0,Kreis,Rheinisch-Bergischer Kreis
+5382.0,Kreis,Rhein-Sieg-Kreis
+5512.0,Kreisfreie Stadt,"Bottrop, Stadt"
+5513.0,Kreisfreie Stadt,"Gelsenkirchen, Stadt"
+5515.0,Kreisfreie Stadt,"Münster, Stadt"
+5554.0,Kreis,Borken
+5558.0,Kreis,Coesfeld
+5562.0,Kreis,Recklinghausen
+5566.0,Kreis,Steinfurt
+5570.0,Kreis,Warendorf
+5711.0,Kreisfreie Stadt,"Bielefeld, Stadt"
+5754.0,Kreis,Gütersloh
+5758.0,Kreis,Herford
+5762.0,Kreis,Höxter
+5766.0,Kreis,Lippe
+5770.0,Kreis,Minden-Lübbecke
+5774.0,Kreis,Paderborn
+5911.0,Kreisfreie Stadt,"Bochum, Stadt"
+5913.0,Kreisfreie Stadt,"Dortmund, Stadt"
+5914.0,Kreisfreie Stadt,"Hagen, Stadt der FernUniversität"
+5915.0,Kreisfreie Stadt,"Hamm, Stadt"
+5916.0,Kreisfreie Stadt,"Herne, Stadt"
+5954.0,Kreis,Ennepe-Ruhr-Kreis
+5958.0,Kreis,Hochsauerlandkreis
+5962.0,Kreis,Märkischer Kreis
+5966.0,Kreis,Olpe
+5970.0,Kreis,Siegen-Wittgenstein
+5974.0,Kreis,Soest
+5978.0,Kreis,Unna
+6411.0,Kreisfreie Stadt,"Darmstadt, Wissenschaftsstadt"
+6412.0,Kreisfreie Stadt,"Frankfurt am Main, Stadt"
+6413.0,Kreisfreie Stadt,"Offenbach am Main, Stadt"
+6414.0,Kreisfreie Stadt,"Wiesbaden, Landeshauptstadt"
+6431.0,Landkreis,Bergstraße
+6432.0,Landkreis,Darmstadt-Dieburg
+6433.0,Landkreis,Groß-Gerau
+6434.0,Landkreis,Hochtaunuskreis
+6435.0,Landkreis,Main-Kinzig-Kreis
+6436.0,Landkreis,Main-Taunus-Kreis
+6437.0,Landkreis,Odenwaldkreis
+6438.0,Landkreis,Offenbach
+6439.0,Landkreis,Rheingau-Taunus-Kreis
+6440.0,Landkreis,Wetteraukreis
+6531.0,Landkreis,Gießen
+6532.0,Landkreis,Lahn-Dill-Kreis
+6533.0,Landkreis,Limburg-Weilburg
+6534.0,Landkreis,Marburg-Biedenkopf
+6535.0,Landkreis,Vogelsbergkreis
+6611.0,Kreisfreie Stadt,"Kassel, documenta-Stadt"
+6631.0,Landkreis,Fulda
+6632.0,Landkreis,Hersfeld-Rotenburg
+6633.0,Landkreis,Kassel
+6634.0,Landkreis,Schwalm-Eder-Kreis
+6635.0,Landkreis,Waldeck-Frankenberg
+6636.0,Landkreis,Werra-Meißner-Kreis
+7111.0,Kreisfreie Stadt,"Koblenz, kreisfreie Stadt"
+7131.0,Landkreis,Ahrweiler
+7132.0,Landkreis,Altenkirchen (Westerwald)
+7133.0,Landkreis,Bad Kreuznach
+7134.0,Landkreis,Birkenfeld
+7135.0,Landkreis,Cochem-Zell
+7137.0,Landkreis,Mayen-Koblenz
+7138.0,Landkreis,Neuwied
+7140.0,Landkreis,Rhein-Hunsrück-Kreis
+7141.0,Landkreis,Rhein-Lahn-Kreis
+7143.0,Landkreis,Westerwaldkreis
+7211.0,Kreisfreie Stadt,"Trier, kreisfreie Stadt"
+7231.0,Landkreis,Bernkastel-Wittlich
+7232.0,Landkreis,Eifelkreis Bitburg-Prüm
+7233.0,Landkreis,Vulkaneifel
+7235.0,Landkreis,Trier-Saarburg
+7311.0,Kreisfreie Stadt,"Frankenthal (Pfalz), kreisfreie Stadt"
+7312.0,Kreisfreie Stadt,"Kaiserslautern, kreisfreie Stadt"
+7313.0,Kreisfreie Stadt,"Landau in der Pfalz, kreisfreie Stadt"
+7314.0,Kreisfreie Stadt,"Ludwigshafen am Rhein, kreisfreie Stadt"
+7315.0,Kreisfreie Stadt,"Mainz, kreisfreie Stadt"
+7316.0,Kreisfreie Stadt,"Neustadt an der Weinstraße, kreisfreie Stadt"
+7317.0,Kreisfreie Stadt,"Pirmasens, kreisfreie Stadt"
+7318.0,Kreisfreie Stadt,"Speyer, kreisfreie Stadt"
+7319.0,Kreisfreie Stadt,"Worms, kreisfreie Stadt"
+7320.0,Kreisfreie Stadt,"Zweibrücken, kreisfreie Stadt"
+7331.0,Landkreis,Alzey-Worms
+7332.0,Landkreis,Bad Dürkheim
+7333.0,Landkreis,Donnersbergkreis
+7334.0,Landkreis,Germersheim
+7335.0,Landkreis,Kaiserslautern
+7336.0,Landkreis,Kusel
+7337.0,Landkreis,Südliche Weinstraße
+7338.0,Landkreis,Rhein-Pfalz-Kreis
+7339.0,Landkreis,Mainz-Bingen
+7340.0,Landkreis,Südwestpfalz
+8111.0,Stadtkreis,"Stuttgart, Stadtkreis"
+8115.0,Landkreis,Böblingen
+8116.0,Landkreis,Esslingen
+8117.0,Landkreis,Göppingen
+8118.0,Landkreis,Ludwigsburg
+8119.0,Landkreis,Rems-Murr-Kreis
+8121.0,Stadtkreis,"Heilbronn, Stadtkreis"
+8125.0,Landkreis,Heilbronn
+8126.0,Landkreis,Hohenlohekreis
+8127.0,Landkreis,Schwäbisch Hall
+8128.0,Landkreis,Main-Tauber-Kreis
+8135.0,Landkreis,Heidenheim
+8136.0,Landkreis,Ostalbkreis
+8211.0,Stadtkreis,"Baden-Baden, Stadtkreis"
+8212.0,Stadtkreis,"Karlsruhe, Stadtkreis"
+8215.0,Landkreis,Karlsruhe
+8216.0,Landkreis,Rastatt
+8221.0,Stadtkreis,"Heidelberg, Stadtkreis"
+8222.0,Stadtkreis,"Mannheim, Stadtkreis"
+8225.0,Landkreis,Neckar-Odenwald-Kreis
+8226.0,Landkreis,Rhein-Neckar-Kreis
+8231.0,Stadtkreis,"Pforzheim, Stadtkreis"
+8235.0,Landkreis,Calw
+8236.0,Landkreis,Enzkreis
+8237.0,Landkreis,Freudenstadt
+8311.0,Stadtkreis,"Freiburg im Breisgau, Stadtkreis"
+8315.0,Landkreis,Breisgau-Hochschwarzwald
+8316.0,Landkreis,Emmendingen
+8317.0,Landkreis,Ortenaukreis
+8325.0,Landkreis,Rottweil
+8326.0,Landkreis,Schwarzwald-Baar-Kreis
+8327.0,Landkreis,Tuttlingen
+8335.0,Landkreis,Konstanz
+8336.0,Landkreis,Lörrach
+8337.0,Landkreis,Waldshut
+8415.0,Landkreis,Reutlingen
+8416.0,Landkreis,Tübingen
+8417.0,Landkreis,Zollernalbkreis
+8421.0,Stadtkreis,"Ulm, Stadtkreis"
+8425.0,Landkreis,Alb-Donau-Kreis
+8426.0,Landkreis,Biberach
+8435.0,Landkreis,Bodenseekreis
+8436.0,Landkreis,Ravensburg
+8437.0,Landkreis,Sigmaringen
+9161.0,Kreisfreie Stadt,Ingolstadt
+9162.0,Kreisfreie Stadt,"München, Landeshauptstadt"
+9163.0,Kreisfreie Stadt,Rosenheim
+9171.0,Landkreis,Altötting
+9172.0,Landkreis,Berchtesgadener Land
+9173.0,Landkreis,Bad Tölz-Wolfratshausen
+9174.0,Landkreis,Dachau
+9175.0,Landkreis,Ebersberg
+9176.0,Landkreis,Eichstätt
+9177.0,Landkreis,Erding
+9178.0,Landkreis,Freising
+9179.0,Landkreis,Fürstenfeldbruck
+9180.0,Landkreis,Garmisch-Partenkirchen
+9181.0,Landkreis,Landsberg am Lech
+9182.0,Landkreis,Miesbach
+9183.0,Landkreis,Mühldorf a.Inn
+9184.0,Landkreis,München
+9185.0,Landkreis,Neuburg-Schrobenhausen
+9186.0,Landkreis,Pfaffenhofen a.d.Ilm
+9187.0,Landkreis,Rosenheim
+9188.0,Landkreis,Starnberg
+9189.0,Landkreis,Traunstein
+9190.0,Landkreis,Weilheim-Schongau
+9261.0,Kreisfreie Stadt,Landshut
+9262.0,Kreisfreie Stadt,Passau
+9263.0,Kreisfreie Stadt,Straubing
+9271.0,Landkreis,Deggendorf
+9272.0,Landkreis,Freyung-Grafenau
+9273.0,Landkreis,Kelheim
+9274.0,Landkreis,Landshut
+9275.0,Landkreis,Passau
+9276.0,Landkreis,Regen
+9277.0,Landkreis,Rottal-Inn
+9278.0,Landkreis,Straubing-Bogen
+9279.0,Landkreis,Dingolfing-Landau
+9361.0,Kreisfreie Stadt,Amberg
+9362.0,Kreisfreie Stadt,Regensburg
+9363.0,Kreisfreie Stadt,Weiden i.d.OPf.
+9371.0,Landkreis,Amberg-Sulzbach
+9372.0,Landkreis,Cham
+9373.0,Landkreis,Neumarkt i.d.OPf.
+9374.0,Landkreis,Neustadt a.d.Waldnaab
+9375.0,Landkreis,Regensburg
+9376.0,Landkreis,Schwandorf
+9377.0,Landkreis,Tirschenreuth
+9461.0,Kreisfreie Stadt,Bamberg
+9462.0,Kreisfreie Stadt,Bayreuth
+9463.0,Kreisfreie Stadt,Coburg
+9464.0,Kreisfreie Stadt,Hof
+9471.0,Landkreis,Bamberg
+9472.0,Landkreis,Bayreuth
+9473.0,Landkreis,Coburg
+9474.0,Landkreis,Forchheim
+9475.0,Landkreis,Hof
+9476.0,Landkreis,Kronach
+9477.0,Landkreis,Kulmbach
+9478.0,Landkreis,Lichtenfels
+9479.0,Landkreis,Wunsiedel i.Fichtelgebirge
+9561.0,Kreisfreie Stadt,Ansbach
+9562.0,Kreisfreie Stadt,Erlangen
+9563.0,Kreisfreie Stadt,Fürth
+9564.0,Kreisfreie Stadt,Nürnberg
+9565.0,Kreisfreie Stadt,Schwabach
+9571.0,Landkreis,Ansbach
+9572.0,Landkreis,Erlangen-Höchstadt
+9573.0,Landkreis,Fürth
+9574.0,Landkreis,Nürnberger Land
+9575.0,Landkreis,Neustadt a.d.Aisch-Bad Windsheim
+9576.0,Landkreis,Roth
+9577.0,Landkreis,Weißenburg-Gunzenhausen
+9661.0,Kreisfreie Stadt,Aschaffenburg
+9662.0,Kreisfreie Stadt,Schweinfurt
+9663.0,Kreisfreie Stadt,Würzburg
+9671.0,Landkreis,Aschaffenburg
+9672.0,Landkreis,Bad Kissingen
+9673.0,Landkreis,Rhön-Grabfeld
+9674.0,Landkreis,Haßberge
+9675.0,Landkreis,Kitzingen
+9676.0,Landkreis,Miltenberg
+9677.0,Landkreis,Main-Spessart
+9678.0,Landkreis,Schweinfurt
+9679.0,Landkreis,Würzburg
+9761.0,Kreisfreie Stadt,Augsburg
+9762.0,Kreisfreie Stadt,Kaufbeuren
+9763.0,Kreisfreie Stadt,Kempten (Allgäu)
+9764.0,Kreisfreie Stadt,Memmingen
+9771.0,Landkreis,Aichach-Friedberg
+9772.0,Landkreis,Augsburg
+9773.0,Landkreis,Dillingen a.d.Donau
+9774.0,Landkreis,Günzburg
+9775.0,Landkreis,Neu-Ulm
+9776.0,Landkreis,Lindau (Bodensee)
+9777.0,Landkreis,Ostallgäu
+9778.0,Landkreis,Unterallgäu
+9779.0,Landkreis,Donau-Ries
+9780.0,Landkreis,Oberallgäu
+10041.0,Regionalverband,Regionalverband Saarbrücken
+10042.0,Landkreis,Merzig-Wadern
+10043.0,Landkreis,Neunkirchen
+10044.0,Landkreis,Saarlouis
+10045.0,Landkreis,Saarpfalz-Kreis
+10046.0,Landkreis,St. Wendel
+11000.0,Kreisfreie Stadt,"Berlin, Stadt"
+12051.0,Kreisfreie Stadt,"Brandenburg an der Havel, Stadt"
+12052.0,Kreisfreie Stadt,"Cottbus, Stadt"
+12053.0,Kreisfreie Stadt,"Frankfurt (Oder), Stadt"
+12054.0,Kreisfreie Stadt,"Potsdam, Stadt"
+12060.0,Landkreis,Barnim
+12061.0,Landkreis,Dahme-Spreewald
+12062.0,Landkreis,Elbe-Elster
+12063.0,Landkreis,Havelland
+12064.0,Landkreis,Märkisch-Oderland
+12065.0,Landkreis,Oberhavel
+12066.0,Landkreis,Oberspreewald-Lausitz
+12067.0,Landkreis,Oder-Spree
+12068.0,Landkreis,Ostprignitz-Ruppin
+12069.0,Landkreis,Potsdam-Mittelmark
+12070.0,Landkreis,Prignitz
+12071.0,Landkreis,Spree-Neiße
+12072.0,Landkreis,Teltow-Fläming
+12073.0,Landkreis,Uckermark
+13003.0,Kreisfreie Stadt,Rostock
+13004.0,Kreisfreie Stadt,Schwerin
+13071.0,Landkreis,Mecklenburgische Seenplatte
+13072.0,Landkreis,Landkreis Rostock
+13073.0,Landkreis,Vorpommern-Rügen
+13074.0,Landkreis,Nordwestmecklenburg
+13075.0,Landkreis,Vorpommern-Greifswald
+13076.0,Landkreis,Ludwigslust-Parchim
+14511.0,Kreisfreie Stadt,"Chemnitz, Stadt"
+14521.0,Landkreis,Erzgebirgskreis
+14522.0,Landkreis,Mittelsachsen
+14523.0,Landkreis,Vogtlandkreis
+14524.0,Landkreis,Zwickau
+14612.0,Kreisfreie Stadt,"Dresden, Stadt"
+14625.0,Landkreis,Bautzen
+14626.0,Landkreis,Görlitz
+14627.0,Landkreis,Meißen
+14628.0,Landkreis,Sächsische Schweiz-Osterzgebirge
+14713.0,Kreisfreie Stadt,"Leipzig, Stadt"
+14729.0,Landkreis,Leipzig
+14730.0,Landkreis,Nordsachsen
+15001.0,Kreisfreie Stadt,"Dessau-Roßlau, Stadt"
+15002.0,Kreisfreie Stadt,"Halle (Saale), Stadt"
+15003.0,Kreisfreie Stadt,"Magdeburg, Landeshauptstadt"
+15081.0,Landkreis,Altmarkkreis Salzwedel
+15082.0,Landkreis,Anhalt-Bitterfeld
+15083.0,Landkreis,Börde
+15084.0,Landkreis,Burgenlandkreis
+15085.0,Landkreis,Harz
+15086.0,Landkreis,Jerichower Land
+15087.0,Landkreis,Mansfeld-Südharz
+15088.0,Landkreis,Saalekreis
+15089.0,Landkreis,Salzlandkreis
+15090.0,Landkreis,Stendal
+15091.0,Landkreis,Wittenberg
+16051.0,Kreisfreie Stadt,"Erfurt, Stadt"
+16052.0,Kreisfreie Stadt,"Gera, Stadt"
+16053.0,Kreisfreie Stadt,"Jena, Stadt"
+16054.0,Kreisfreie Stadt,"Suhl, Stadt"
+16055.0,Kreisfreie Stadt,"Weimar, Stadt"
+16061.0,Landkreis,Eichsfeld
+16062.0,Landkreis,Nordhausen
+16063.0,Landkreis,Wartburgkreis
+16064.0,Landkreis,Unstrut-Hainich-Kreis
+16065.0,Landkreis,Kyffhäuserkreis
+16066.0,Landkreis,Schmalkalden-Meiningen
+16067.0,Landkreis,Gotha
+16068.0,Landkreis,Sömmerda
+16069.0,Landkreis,Hildburghausen
+16070.0,Landkreis,Ilm-Kreis
+16071.0,Landkreis,Weimarer Land
+16072.0,Landkreis,Sonneberg
+16073.0,Landkreis,Saalfeld-Rudolstadt
+16074.0,Landkreis,Saale-Holzland-Kreis
+16075.0,Landkreis,Saale-Orla-Kreis
+16076.0,Landkreis,Greiz
+16077.0,Landkreis,Altenburger Land

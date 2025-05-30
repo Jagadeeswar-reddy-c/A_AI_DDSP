@@ -1,0 +1,57 @@
+Statistisches Bundesamt,Unnamed: 1,Unnamed: 2
+H 11 Gesundheit,,
+,,
+,,
+DRG-Statistik 20211),,
+Vollstationäre Patientinnen und Patienten in Krankenhäusern 2021,,
+(einschl. Sterbe- und Stundenfälle),,
+Fallpauschalen (DRGs) nach dem Wohnort der Patienten (Kreisebene),,
+und Altersgruppen,,
+Anzahl,,
+,,
+pat_ags5,Wohnort der Patienten (Kreisebene),
+01001,"Flensburg, Stadt",
+01002,"Kiel, Landeshauptstadt",
+…,siehe Excel-Blatt: SA 40 2021,
+auslan,Wohnort der Patienten: Ausland,
+unbeka,unbekannt,
+,,
+drg,Fallpauschalen,
+,AAAA,unbekannt
+,,
+typ_alter,01,unter 1 Jahr
+,02,1-4
+,03,5-9
+,04,10-14
+,05,15-19
+,06,20-24
+,07,25-29
+,08,30-34
+,09,35-39
+,10,40-44
+,11,45-49
+,12,50-54
+,13,55-59
+,14,60-64
+,15,65-69
+,16,70-74
+,17,75-79
+,18,80-84
+,19,85-89
+,20,90 und älter
+,22,unbekannt
+,,
+,,
+,,
+patient,Fälle,
+,,
+,,
+"1) Die Erhebung erstreckt sich auf alle Krankenhäuser, die nach dem DRG-Vergütungssystem ",,
+    abrechnen und dem Anwendungsbereich des § 1 KHEntgG unterliegen.,,
+,,
+,,
+,,
+"Quelle: Statistisches Bundesamt (Destatis), DRG-Statistik.",,
+,,
+"© Statistisches Bundesamt, Wiesbaden, 2022",,
+"     Vervielfältigung und Verbreitung, auch auszugsweise, mit Quellenangabe gestattet.",,
